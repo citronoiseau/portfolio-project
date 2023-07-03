@@ -1,6 +1,65 @@
-body {
-    background-color:aqua ;
+h1, h2, h3, p {
+    color: #151515;
 }
 h1 {
+    font-family: 'Vollkorn', serif;
+    font-size: 56px;
+}
+h2, h3, p {
     font-family: 'Roboto', sans-serif;
+}
+h2 {
+    font-size: 40px;
+}
+.description {
+    font-size: 32px;
+}
+.hero {
+    background-color: #FFFBFB;
+
+}
+.navigation {
+     padding: 44px 155px
+}
+.navbar-nav .nav-link {
+    font-family: 'Roboto', sans-serif;
+    margin-right: 20px;
+    font-size: 18px;
+}
+.navbar-nav .nav-link.active {
+    color: #FF5151;
+
+}
+.logo {
+width: 170px;
+height: 24px;
+}
+
+.developer-photo {
+width: 385px;
+max-width: 400px;
+height: 425px;
+margin: 20px 0 0 80px;
+border-radius: 32px;
+}
+
+.introduction {
+    margin: 40px 0 0 100px;;
+}
+.introduction-photo {
+    max-width: 400px;
+}
+.btn-contact-me {
+    background: #FF5151;
+    border-radius: 32px;
+    color: #FDFDFD;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 55px;
+    margin-top: 110px;
+    transition: background-color 0.3s ease-in;
+}
+.btn-contact-me:hover {
+    background-color: #F00;
+    color: #FDFDFD;
 }
