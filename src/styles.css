@@ -3,13 +3,14 @@ h1, h2, h3, p {
 }
 h1 {
     font-family: 'Vollkorn', serif;
-    font-size: 56px;
+    font-size: 65px;
+    font-weight: 700;
 }
 h2, h3, p {
     font-family: 'Roboto', sans-serif;
 }
 h2 {
-    font-size: 40px;
+    font-size: 48px;
 }
 .description {
     font-size: 32px;
@@ -36,7 +37,6 @@ height: 24px;
 }
 
 .developer-photo {
-width: 385px;
 max-width: 400px;
 height: 425px;
 margin: 20px 0 0 80px;
@@ -48,6 +48,7 @@ border-radius: 32px;
 }
 .introduction-photo {
     max-width: 400px;
+    margin-left: 60px;
 }
 .btn-contact-me {
     background: #FF5151;
@@ -56,7 +57,7 @@ border-radius: 32px;
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     padding: 20px 55px;
-    margin-top: 110px;
+    margin-top: 40px;
     transition: background-color 0.3s ease-in;
 }
 .btn-contact-me:hover {
