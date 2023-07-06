@@ -12,16 +12,16 @@ h2, h3, p {
 h2 {
     font-size: 48px;
 }
+
 .description {
     font-size: 32px;
 }
 .hero {
     background-color: #FFFBFB;
+    padding: 20px;
 
 }
-.navigation {
-     padding: 44px 155px
-}
+
 .navbar-nav .nav-link {
     font-family: 'Roboto', sans-serif;
     margin-right: 20px;
@@ -35,32 +35,74 @@ h2 {
 width: 170px;
 height: 24px;
 }
-
+.introduction-field {
+    padding: 20px;
+    margin-top: 60px;
+}
 .developer-photo {
-max-width: 400px;
-height: 425px;
-margin: 20px 0 0 80px;
+  height: 450px;
 border-radius: 32px;
 }
 
-.introduction {
-    margin: 40px 0 0 100px;;
-}
 .introduction-photo {
-    max-width: 400px;
-    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.introduction {
+    margin-top: 10px;
 }
 .btn-contact-me {
     background: #FF5151;
+    margin-top: 30px;
     border-radius: 32px;
     color: #FDFDFD;
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     padding: 20px 55px;
-    margin-top: 40px;
     transition: background-color 0.3s ease-in;
 }
 .btn-contact-me:hover {
     background-color: #F00;
     color: #FDFDFD;
 }
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 2px rgb(235, 235, 235) !important;
+  outline-width: 1px !important;
+}
+@media (max-width:990px) {
+  h1 , h2, h3, p {
+     text-align:  center;
+   }
+   h1 {
+    font-size: 45px;
+   }
+   h2 {
+    font-size:30px;
+   }
+   .description {
+    font-size: 15px;
+}
+  .introduction {
+     margin-top: 30px;
+   }
+   .btn-contact-me {
+    display: block;
+    margin: 0 auto;
+    font-size: 15px;
+    padding: 15px 15px;
+    max-width: 200px;
+  
+   }
+   
+   .developer-photo {
+    height: 300px;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    }
+    .introduction-field {
+      margin-top: 15px;
+  }
+ }
+ 
