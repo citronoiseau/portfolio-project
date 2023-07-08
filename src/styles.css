@@ -12,12 +12,11 @@ h2, h3, p {
 h2 {
     font-size: 48px;
 }
-
 .description {
     font-size: 32px;
 }
 .hero {
-    background-color: #FFFBFB;
+    background-color: linear-gradient(to bottom, #FFFBFB, transparent);
     padding: 20px;
 
 }
@@ -49,22 +48,34 @@ border-radius: 32px;
     justify-content: center;
     padding: 5px;
 }
+
+
 .introduction {
     margin-top: 10px;
 }
-.btn-contact-me {
+.contact-me {
+    display:block;
+    max-width: 270px;
+    text-align: center;
     background: #FF5151;
-    margin-top: 30px;
+    cursor: pointer;
+    text-decoration:none;
+    margin-top: 40px;
     border-radius: 32px;
     color: #FDFDFD;
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
-    padding: 20px 55px;
+    padding: 22px 55px;
     transition: background-color 0.3s ease-in;
 }
-.btn-contact-me:hover {
-    background-color: #F00;
+.contact-me:hover {
+    background-color: #ff9238;
     color: #FDFDFD;
+}
+.contact-me:active {
+  background-color: #ffd79f;
+  transition-duration: 0.1s; 
+  color: #FDFDFD;
 }
 .navbar-toggler:focus {
   box-shadow: 0 0 0 2px rgb(235, 235, 235) !important;
@@ -81,28 +92,150 @@ border-radius: 32px;
     font-size:30px;
    }
    .description {
-    font-size: 15px;
+    font-size: 20px;
 }
   .introduction {
      margin-top: 30px;
    }
-   .btn-contact-me {
+   .contact-me {
     display: block;
     margin: 0 auto;
-    font-size: 15px;
-    padding: 15px 15px;
+    font-size: 18px;
+    padding: 18px 18px;
     max-width: 200px;
   
    }
    
    .developer-photo {
     height: 300px;
-    border-radius: 32px;
-    display: flex;
-    justify-content: center;
     }
     .introduction-field {
       margin-top: 15px;
   }
  }
+ .featured-projects {
+  text-align: center;
+  font-size: 25px;
+ }
  
+ .first-project {
+  display: block;
+  margin: 40px auto;
+  max-width: 1600px;
+  padding: 20px;
+ }
+
+ .weather-photo, .dog-photo {
+  height: 350px;
+border-radius: 32px;
+}
+
+.weather-project-photo, .dog-project-photo {
+  display: flex;
+  justify-content: center;
+}
+
+.app-description {
+  font-size: 21px;
+  margin-top: 10px;
+  text-align: justify;
+}
+.project-name {
+  font-family: 'Vollkorn', serif;
+   margin-top: 5px;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1;
+}
+.project-button {
+  display:block;
+  margin-top: 30px;
+  max-width: 165px;
+  text-align: center;
+  background-color: #ff9238;
+  cursor: pointer;
+  text-decoration:none;
+  border-radius: 32px;
+  color: #FDFDFD;
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  padding: 17px 27px;
+  transition: background-color 0.3s ease-in;
+
+}
+.project-button:hover {
+  background-color: #FF5151;
+  color: #FDFDFD;
+}
+.project-button:active {
+background-color: #ffaea0;
+transition-duration: 0.1s; 
+color: #FDFDFD;
+}
+
+.second-project {
+  display: block;
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 1600px;
+}
+@media (max-width:990px) { 
+  .featured-projects {
+    text-align: center;
+    font-size: 18px;
+   }
+    
+ .first-project, .second-project {
+  margin: 0 auto;
+  text-align: center;
+ }
+  .app-description {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .weather-photo, .dog-photo {
+    height: 200px;
+    margin: 0;
+
+  }
+  .project-name {
+    font-size: 35px;
+    margin: 20px 0 0 0;
+  }
+  .project-button {
+    display: block;
+    margin: 10px auto;
+    padding: 13px;
+    max-width: 140px;
+    font-size: 15px;
+  }
+}
+
+.footer {
+background: #151515;
+width: 100%;
+color: #FFFFFF; 
+ margin: 100px  0 0 0;
+ padding: 30px;
+ font-family: 'Roboto', sans-serif;
+}
+h4 {
+  margin: 20px;
+}
+.primary-section {
+  color: #A9A9A9;
+}
+ul {
+  list-style-type: none;
+
+}
+.link-me {
+  text-decoration: none;
+  color: #FFFFFF; 
+}
+.link-me:hover {
+  text-decoration: underline;
+  color: #FFFFFF; 
+}
