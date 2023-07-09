@@ -16,7 +16,7 @@ h2 {
     font-size: 28px;
 }
 .hero {
-    background-color: linear-gradient(to bottom, #FFFBFB, transparent);
+    background: linear-gradient(to bottom, #FFFBFB, transparent);
     padding: 20px;
 
 }
@@ -243,4 +243,36 @@ ul {
 .link-me:hover {
   text-decoration: underline;
   color: #FFFFFF; 
+}
+.about-me {
+  padding: 20px;
+  margin-top: 40px;
+  max-width: 1100px;
+}
+.presentation {
+  font-size: 47px;
+}
+.about-developer {
+  font-size: 20px;
+  margin: 20px 0;
+}
+.anastasiia-photo {
+  border-radius: 32px;
+  height: 600px;
+}
+@media (max-width:990px) { 
+  .about-me {
+   text-align:center;
+  }
+  .about-developer {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  .presentation {
+    font-size: 40px;
+    margin-top: 30px;
+  }
+  .anastasiia-photo {
+    height: 400px;
+  }
 }
