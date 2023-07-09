@@ -15,9 +15,12 @@ h2 {
 .description {
     font-size: 28px;
 }
+.header {
+  padding: 20px;
+}
 .hero {
-    background: linear-gradient(to bottom, #FFFBFB, transparent);
-    padding: 20px;
+    background: linear-gradient(to bottom, transparent, #FFFBFB, transparent);
+   
 
 }
 
@@ -35,8 +38,7 @@ width: 170px;
 height: 24px;
 }
 .introduction-field {
-    padding: 20px;
-    margin-top: 60px;
+    padding: 30px;
     max-width: 1000px;
 }
 .developer-photo {
@@ -269,7 +271,7 @@ ul {
     margin: 20px 0;
   }
   .presentation {
-    font-size: 40px;
+    font-size: 38px;
     margin-top: 30px;
   }
   .anastasiia-photo {
