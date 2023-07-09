@@ -3,17 +3,17 @@ h1, h2, h3, p {
 }
 h1 {
     font-family: 'Vollkorn', serif;
-    font-size: 65px;
+    font-size: 60px;
     font-weight: 700;
 }
 h2, h3, p {
     font-family: 'Roboto', sans-serif;
 }
 h2 {
-    font-size: 48px;
+    font-size: 43px;
 }
 .description {
-    font-size: 32px;
+    font-size: 28px;
 }
 .hero {
     background-color: linear-gradient(to bottom, #FFFBFB, transparent);
@@ -37,9 +37,10 @@ height: 24px;
 .introduction-field {
     padding: 20px;
     margin-top: 60px;
+    max-width: 1000px;
 }
 .developer-photo {
-  height: 450px;
+  height: 400px;
 border-radius: 32px;
 }
 
@@ -60,10 +61,10 @@ border-radius: 32px;
     background: #FF5151;
     cursor: pointer;
     text-decoration:none;
-    margin-top: 40px;
+    margin-top: 50px;
     border-radius: 32px;
     color: #FDFDFD;
-    font-size: 24px;
+    font-size: 20px;
     font-family: 'Roboto', sans-serif;
     padding: 22px 55px;
     transition: background-color 0.3s ease-in;
@@ -114,6 +115,7 @@ border-radius: 32px;
   }
  }
  .featured-projects {
+  margin-top: 30px;
   text-align: center;
   font-size: 25px;
  }
@@ -121,7 +123,7 @@ border-radius: 32px;
  .first-project {
   display: block;
   margin: 40px auto;
-  max-width: 1600px;
+  max-width: 1400px;
   padding: 20px;
  }
 
@@ -130,14 +132,10 @@ border-radius: 32px;
 border-radius: 32px;
 }
 
-.weather-project-photo, .dog-project-photo {
-  display: flex;
-  justify-content: center;
-}
 
 .app-description {
   font-size: 21px;
-  margin-top: 10px;
+  padding: 10px 10px;
   text-align: justify;
 }
 .project-name {
@@ -177,7 +175,7 @@ color: #FDFDFD;
   display: block;
   margin: 40px auto;
   padding: 20px;
-  max-width: 1600px;
+  max-width: 1400px;
 }
 @media (max-width:990px) { 
   .featured-projects {
@@ -189,6 +187,11 @@ color: #FDFDFD;
   margin: 0 auto;
   text-align: center;
  }
+  
+.weather-project-photo, .dog-project-photo {
+  display: flex;
+  justify-content: center;
+}
   .app-description {
     font-size: 15px;
     text-align: center;
@@ -214,10 +217,12 @@ color: #FDFDFD;
 }
 
 .footer {
-background: #151515;
-width: 100%;
+background-image: url(../images/background.png);
+background-repeat: no-repeat;
+background-size: cover;
 color: #FFFFFF; 
- margin: 100px  0 0 0;
+margin: 0 auto;
+margin-top: 100px;
  padding: 30px;
  font-family: 'Roboto', sans-serif;
 }
