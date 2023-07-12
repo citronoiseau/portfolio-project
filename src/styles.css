@@ -221,6 +221,7 @@ color: #FDFDFD;
 .footer {
   font-family: 'Roboto', sans-serif;
   max-width: 2000px;
+
 background-image: url(../images/background.png);
 background-repeat: no-repeat;
 background-size: cover;
@@ -229,6 +230,19 @@ margin: 0 auto;
 margin-top: 100px;
  padding: 30px;
  font-family: 'Roboto', sans-serif;
+}
+.whoCoded {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 0;
+  color: #FFFFFF; 
+}
+.whoCoded-link {
+  text-decoration: none;
+  color:#FF5151;
+}
+.whoCoded-link:hover {
+  text-decoration: underline;
 }
 h4 {
   margin: 20px;
