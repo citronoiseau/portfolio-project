@@ -249,8 +249,8 @@ ul {
   color: #FFFFFF; 
 }
 .link-me:hover {
-  text-decoration: underline;
-  color: #FFFFFF; 
+
+  color: #FF5151; 
 }
 .about-me {
   padding: 20px;
