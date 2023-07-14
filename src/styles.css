@@ -350,14 +350,15 @@ ul {
   font-weight: 200;
 }
 .contact-link {
-  color: #151515;
+  color: #727272;
   font-size: 18px;
   text-decoration: none;
   cursor: pointer;
+  transition: all 0.1s ease-in;
 }
 .contact-link:hover {
-
   text-decoration: underline;
+  color: #151515;
 
 }
 .gratitude-paragraph {
