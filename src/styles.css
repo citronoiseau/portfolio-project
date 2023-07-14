@@ -241,6 +241,7 @@ margin-top: 100px;
 .whoCoded-link {
   text-decoration: none;
   color:#FF5151;
+  transition: all 0.1s ease-in;
 }
 .whoCoded-link:hover {
   text-decoration: underline;
@@ -262,6 +263,7 @@ ul {
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
   color: #FFFFFF; 
+  transition: all 0.1s ease-in;
 }
 .link-me:hover {
 
