@@ -116,6 +116,10 @@ border-radius: 32px;
       margin-top: 15px;
   }
  }
+ .highlight {
+  color:#ff2f2f;
+  font-weight: 500;
+ }
  .featured-projects {
   margin: 30px 0 80px 0;
   text-align: center;
@@ -276,7 +280,7 @@ ul {
   max-width: 1100px;
 }
 .presentation {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Vollkorn', serif;
   font-size: 47px;
 }
 .about-developer {
@@ -287,8 +291,9 @@ ul {
 .anastasiia-photo {
   border-radius: 32px;
   height: 560px;
+  width: auto;
 }
-@media (max-width:1000px) { 
+@media (max-width:1031px) { 
   .about-me {
    text-align:center;
   }
