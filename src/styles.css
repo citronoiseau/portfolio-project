@@ -32,6 +32,7 @@ h3 {
   gap: 60px;
   flex-wrap: wrap;
 }
+
 .hero img {
   max-width: 300px;
   height: auto;
@@ -108,7 +109,7 @@ h4 {
   color: #fdfdfd;
   background-color: #231f20;
   padding: 20px;
-  margin: 20px;
+  margin: 70px 20px 20px 20px;
   border-radius: 20px;
 }
 .contact-container {
@@ -139,7 +140,18 @@ i {
   text-align: center;
   font-size: 15px;
 }
-
+.aboutMe-container {
+  margin: 40px;
+}
+.aboutMe-container p {
+  text-align: justify;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.aboutMe-container a {
+  display: block;
+  margin: 40px auto;
+}
 @media (max-width: 1400px) {
   body {
     text-align: center;
