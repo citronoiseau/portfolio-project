@@ -20,6 +20,7 @@ h3 {
   width: 170px;
   height: 24px;
 }
+
 .hero-container,
 .project-container,
 .contact-container {
@@ -28,9 +29,15 @@ h3 {
 }
 .hero-container,
 .project-container {
-  margin: 50px 100px;
   gap: 60px;
   flex-wrap: wrap;
+}
+.hero-container {
+  padding: 40px;
+  margin: 20px 280px;
+  background-color: #231f20;
+  color: #fdfdfd;
+  border-radius: 20px;
 }
 
 .hero img {
@@ -48,6 +55,9 @@ h3 {
 form {
   display: flex;
   flex-direction: column;
+}
+.project-container {
+  margin: 50px 100px;
 }
 .project-text-container {
   max-width: 600px;
@@ -69,6 +79,7 @@ p {
 }
 h3 {
   font-size: 28px;
+  margin-top: 40px;
 }
 .button,
 #btn-send,
@@ -149,6 +160,11 @@ h4 {
 .aboutMe-container {
   margin: 40px;
 }
+.aboutMe-container h1 {
+  text-align: center;
+  margin: 20px;
+  font-size: 40px;
+}
 .aboutMe-container p {
   text-align: justify;
   max-width: 800px;
@@ -172,7 +188,7 @@ h4 {
 }
 form {
   border-radius: 20px;
-  padding: 20px;
+  padding: 50px;
   width: 90%;
   max-width: 600px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
