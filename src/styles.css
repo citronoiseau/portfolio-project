@@ -29,15 +29,9 @@ h3 {
 }
 .hero-container,
 .project-container {
+  margin: 50px 100px;
   gap: 60px;
   flex-wrap: wrap;
-}
-.hero-container {
-  padding: 40px;
-  margin: 20px 280px;
-  background-color: #231f20;
-  color: #fdfdfd;
-  border-radius: 20px;
 }
 
 .hero img {
