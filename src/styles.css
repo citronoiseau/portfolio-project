@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #fdfdfd;
+  background-color: #fffdfa;
 }
 h3 {
   text-align: center;
@@ -43,7 +43,9 @@ h3 {
 }
 .hero-text-container,
 .project-text-container,
-.contact-element {
+.contact-element,
+.encouraging-message,
+form {
   display: flex;
   flex-direction: column;
 }
@@ -68,7 +70,9 @@ p {
 h3 {
   font-size: 28px;
 }
-.button {
+.button,
+#btn-send,
+#copyToClipBoard {
   color: #fdfdfd;
   font-size: 18px;
   text-align: center;
@@ -79,7 +83,9 @@ h3 {
   padding: 18px 18px;
   width: 200px;
 }
-.button:hover {
+.button:hover,
+#btn-send:hover,
+#copyToClipBoard:hover {
   background-color: #ff9238;
 }
 
@@ -120,7 +126,7 @@ h4 {
   gap: 3px;
   width: 300px;
 }
-i {
+.footer i {
   padding: 35px;
   font-size: 25px;
   margin: 10px;
@@ -152,6 +158,50 @@ i {
   display: block;
   margin: 40px auto;
 }
+
+.contact-form-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 50px;
+  gap: 40px;
+}
+.encouraging-message {
+  align-items: center;
+  justify-content: center;
+}
+form {
+  border-radius: 20px;
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  background-color: #231f20;
+}
+
+form h5 {
+  font-size: 30px;
+  color: #fffdfa;
+  margin-bottom: 20px;
+}
+form input,
+form textarea {
+  border: 0;
+  border-bottom: 2px solid #fffdfa;
+  margin: 10px;
+  padding: 20px;
+  outline: none;
+  background-color: #231f20;
+  font-size: 16px;
+  caret-color: #fffdfa;
+  color: #fffdfa;
+}
+#btn-send,
+#copyToClipBoard {
+  border: none;
+  margin: 10px;
+}
+
 @media (max-width: 1400px) {
   body {
     text-align: center;
@@ -168,6 +218,9 @@ i {
   }
   .small-paragraph {
     display: block;
+  }
+  #btn-send {
+    margin: 20px auto;
   }
 }
 @media (max-width: 1023px) {
