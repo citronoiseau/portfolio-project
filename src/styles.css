@@ -251,4 +251,7 @@ form textarea {
   .project-container img {
     width: 300px;
   }
+  .contact-form-container {
+    margin: 50px 20px;
+  }
 }
