@@ -2,6 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #fffdfa;
 }
+
 .navbar-toggler:focus {
   box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
 }
@@ -23,7 +24,12 @@ h3 {
   width: 170px;
   height: 24px;
 }
-
+.hero,
+.contact-form-container,
+.aboutMe-container,
+.work-container {
+  padding-top: 40px;
+}
 .hero-container,
 .project-container,
 .contact-container {
@@ -118,6 +124,11 @@ h4 {
 }
 .project-text-container a {
   width: 150px;
+}
+.work-container h1 {
+  text-align: center;
+  margin: 60px;
+  font-size: 40px;
 }
 .footer {
   color: #fdfdfd;
