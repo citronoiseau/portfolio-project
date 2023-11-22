@@ -102,7 +102,12 @@ h3 {
 #copyToClipBoard:hover {
   background-color: #ff9238;
 }
-
+.seeMore {
+  text-align: center;
+}
+.seeMore .button {
+  padding: 20px 60px;
+}
 .project-container img {
   max-width: 600px;
   border-radius: 20px;
@@ -245,6 +250,9 @@ form textarea {
   }
   #btn-send {
     margin: 20px auto;
+  }
+  p {
+    hyphens: auto;
   }
 }
 @media (max-width: 1023px) {
