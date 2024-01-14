@@ -1,5 +1,5 @@
 const copyBtn = document.querySelector(`#copyToClipBoard`);
-
+const contactForm = document.querySelector("form");
 function copyFunction() {
   navigator.clipboard.writeText(`anastasiiatrubachova1@gmail.com`);
   alert("Email copied!");
@@ -22,7 +22,11 @@ function sendFunction(event) {
     From: "anastasiiatrubachova1@gmail.com",
     Subject: subject,
     Body: body,
-  }).then((message) => alert("Message sent succesfully!"));
+  }).then((message) => {
+    alert("Message sent successfully!");
+
+    contactForm.reset();
+  });
 }
 
 sendBtn.addEventListener(`click`, sendFunction);
