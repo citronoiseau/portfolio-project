@@ -15,7 +15,14 @@ function sendFunction(event) {
   const subject = document.querySelector(`#subject`).value;
   const message = document.querySelector(`#message`).value;
   const body =
-    `name: ` + name + `<br/> email:` + email + `<br/> message: ` + message;
+    `name: ` +
+    name +
+    `<br/> email:` +
+    email +
+    `<br/> subject:` +
+    subject +
+    `<br/> message: ` +
+    message;
   Email.send({
     SecureToken: "2c9b081e-8e5b-4029-b2cb-c006776d7a4a",
     To: "anastasiiatrubachova1@gmail.com",
